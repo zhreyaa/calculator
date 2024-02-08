@@ -4,6 +4,10 @@
   remote_user: raju
   become: false
   tasks:
+    - name: Ensure 
+      pip:
+        name:
+          - docker>=1.8.0
     - name: Pull Docker Image
       docker_image:
         name: "zhreya/calculator"
