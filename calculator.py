@@ -42,7 +42,7 @@ def main():
 
         choice = input("Enter your choice (1-9): ")
 
-if choice == '1':
+        if choice == '1':
             x = float(input("Enter the value of x: "))
             result = square_root(x)
             print("Square root of", x, "is:", result)
