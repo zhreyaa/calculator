@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE_NAME = 'calculators'
+        DOCKER_IMAGE_NAME = 'calculators2'
         GITHUB_REPO_URL = 'https://github.com/zhreyaa/calculator.git'
     }
 
@@ -29,8 +29,8 @@ pipeline {
             steps {
                 script{
                     docker.withRegistry('', 'DockerHubCred') {
-                    sh 'docker tag calculators zhreya/calculators:latest'
-                    sh 'docker push zhreya/calculators'
+                    sh 'docker tag calculators2 zhreya/calculators2:latest'
+                    sh 'docker push zhreya/calculators2'
                     }
                  }
             }
