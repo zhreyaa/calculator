@@ -10,7 +10,7 @@
           - docker>=1.8.0
     - name: Pull Docker Image
       docker_image:
-        name: "zhreya/calculator"
+        name: "zhreya/calculators"
         source: pull
       register: docker_pull_result
 
@@ -23,4 +23,4 @@
         name: docker
         state: started
     - name: Running container
-      shell: docker run -it -d --name calculator zhreya/calculator
+      shell: docker run -it -d --name calculators zhreya/calculators
