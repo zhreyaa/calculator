@@ -46,143 +46,47 @@ def main():
             x = float(input("Enter the value of x: "))
             result = square_root(x)
             print("Square root of", x, "is:", result)
-            print("-----------------------------------------")
+            print("--------------------------------------")
         elif choice == '2':
             x = int(input("Enter the value of x: "))
             result = factorial(x)
             print("Factorial of", x, "is:", result)
-            print("-----------------------------------------")
+            print("--------------------------------------")
         elif choice == '3':
             x = float(input("Enter the value of x: "))
             result = natural_logarithm(x)
             print("Natural logarithm of", x, "is:", result)
-            print("-----------------------------------------")
+            print("--------------------------------------")
         elif choice == '4':
             x = float(input("Enter the value of x: "))
             b = float(input("Enter the value of b: "))
             result = power(x, b)
             print(x, "raised to the power of", b, "is:", result)
-            print("-----------------------------------------")
+            print("--------------------------------------")
         elif choice == '5':
             x = float(input("Enter the first number: "))
             y = float(input("Enter the second number: "))
             result = addition(x, y)
             print("Result of addition:", result)
-            print("-----------------------------------------")
+            print("--------------------------------------")
         elif choice == '6':
             x = float(input("Enter the first number: "))
             y = float(input("Enter the second number: "))
             result = subtraction(x, y)
             print("Result of subtraction:", result)
-            print("-----------------------------------------")
+            print("--------------------------------------")
         elif choice == '7':
             x = float(input("Enter the first number: "))
             y = float(input("Enter the second number: "))
             result = multiplication(x, y)
             print("Result of multiplication:", result)
-            print("-----------------------------------------")
+            print("--------------------------------------")
         elif choice == '8':
             x = float(input("Enter the first number: "))
             y = float(input("Enter the second number (non-zero): "))
             result = division(x, y)
             print("Result of division:", result)
-            print("-----------------------------------------")
-        elif choice == '9':
-            print("Exiting the program. Goodbye!")
-            break
-if choice == '1':
-            x = float(input("Enter the value of x: "))
-            result = square_root(x)
-            print("Square root of", x, "is:", result)
-            print("-----------------------------------------")
-        elif choice == '2':
-            x = int(input("Enter the value of x: "))
-            result = factorial(x)
-            print("Factorial of", x, "is:", result)
-            print("-----------------------------------------")
-        elif choice == '3':
-            x = float(input("Enter the value of x: "))
-            result = natural_logarithm(x)
-            print("Natural logarithm of", x, "is:", result)
-            print("-----------------------------------------")
-        elif choice == '4':
-            x = float(input("Enter the value of x: "))
-            b = float(input("Enter the value of b: "))
-            result = power(x, b)
-            print(x, "raised to the power of", b, "is:", result)
-            print("-----------------------------------------")
-        elif choice == '5':
-            x = float(input("Enter the first number: "))
-            y = float(input("Enter the second number: "))
-            result = addition(x, y)
-            print("Result of addition:", result)
-            print("-----------------------------------------")
-        elif choice == '6':
-            x = float(input("Enter the first number: "))
-            y = float(input("Enter the second number: "))
-            result = subtraction(x, y)
-            print("Result of subtraction:", result)
-            print("-----------------------------------------")
-        elif choice == '7':
-            x = float(input("Enter the first number: "))
-            y = float(input("Enter the second number: "))
-            result = multiplication(x, y)
-            print("Result of multiplication:", result)
-            print("-----------------------------------------")
-        elif choice == '8':
-            x = float(input("Enter the first number: "))
-            y = float(input("Enter the second number (non-zero): "))
-            result = division(x, y)
-            print("Result of division:", result)
-            print("-----------------------------------------")
-        elif choice == '9':
-            print("Exiting the program. Goodbye!")
-            break
-if choice == '1':
-            x = float(input("Enter the value of x: "))
-            result = square_root(x)
-            print("Square root of", x, "is:", result)
-            print("-----------------------------------------")
-        elif choice == '2':
-            x = int(input("Enter the value of x: "))
-            result = factorial(x)
-            print("Factorial of", x, "is:", result)
-            print("-----------------------------------------")
-        elif choice == '3':
-            x = float(input("Enter the value of x: "))
-            result = natural_logarithm(x)
-            print("Natural logarithm of", x, "is:", result)
-            print("-----------------------------------------")
-        elif choice == '4':
-            x = float(input("Enter the value of x: "))
-            b = float(input("Enter the value of b: "))
-            result = power(x, b)
-            print(x, "raised to the power of", b, "is:", result)
-            print("-----------------------------------------")
-        elif choice == '5':
-            x = float(input("Enter the first number: "))
-            y = float(input("Enter the second number: "))
-            result = addition(x, y)
-            print("Result of addition:", result)
-            print("-----------------------------------------")
-        elif choice == '6':
-            x = float(input("Enter the first number: "))
-            y = float(input("Enter the second number: "))
-            result = subtraction(x, y)
-            print("Result of subtraction:", result)
-            print("-----------------------------------------")
-        elif choice == '7':
-            x = float(input("Enter the first number: "))
-            y = float(input("Enter the second number: "))
-            result = multiplication(x, y)
-            print("Result of multiplication:", result)
-            print("-----------------------------------------")
-        elif choice == '8':
-            x = float(input("Enter the first number: "))
-            y = float(input("Enter the second number (non-zero): "))
-            result = division(x, y)
-            print("Result of division:", result)
-            print("-----------------------------------------")
+            print("--------------------------------------")
         elif choice == '9':
             print("Exiting the program. Goodbye!")
             break
