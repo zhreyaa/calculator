@@ -1,5 +1,5 @@
 import unittest
-from your_calculator_program import square_root, factorial, natural_logarithm, power, addition, subtraction, multiplication, division
+from calculator import square_root, factorial, natural_logarithm, power, addition, subtraction, multiplication, division
 
 class TestCalculatorFunctions(unittest.TestCase):
     
